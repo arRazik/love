@@ -1,6 +1,5 @@
 import { useState, useEffect, useRef } from "react";
 import "./App.css";
-
 const phrases = [
   "Katbghini",
   "wach mtakda !",
@@ -26,7 +25,6 @@ function Particle({ x, y, color, onDone }) {
     />
   );
 }
-
 let pid = 0;
 const COLORS = ["#E0709A","#FFD700","#7B61FF","#FF6B6B","#43E97B","#38F9D7"];
 
