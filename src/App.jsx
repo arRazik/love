@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef } from "react";
 import "./App.css";
 const phrases = [
-  "Katbghini",
+  "Katbghini ????",
   "wach mtakda !",
   "gha katkdbi",
   "wach mtakda !",
