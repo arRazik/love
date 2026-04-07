@@ -113,7 +113,7 @@ export default function App() {
 
       <div
         ref={appRef}
-        className="h-screen w-screen flex flex-col items-center justify-center gap-8"
+        className="h-screen  flex flex-col items-center justify-center gap-8"
       >
         {!accepted ? (
           <>
@@ -125,15 +125,17 @@ export default function App() {
               {phrases[text]}
             </h1>
 
-            <div className="flex gap-4 items-center">
+            <div className=" flex items-center  space-x-6 ">
               <button
                 onClick={handleAh}
                 style={{
                   width: ahSize, height: ahSize, fontSize: ahFs,
+                  margin: 10,
                   background: "#E0709A", color: "#fff", border: "none",
                   borderRadius: ahSize * 0.28, fontWeight: 600,
                   cursor: "pointer", transition: "all 0.35s cubic-bezier(.34,1.56,.64,1)",
                 }}
+               
               >
                 AH
               </button>
